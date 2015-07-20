@@ -55,7 +55,9 @@ public class skmodulo {
             }
             finally {
                cerrarConexion();
-               ++contador;
+               contador=contador+1;
+			crearConexxion();
+
             }
          }
       }catch( SocketException ske ){cerrarConexion();}
