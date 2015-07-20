@@ -40,5 +40,6 @@ public class SkClienteApp extends SingleFrameApplication {
      */
     public static void main(String[] args) {
         launch(SkClienteApp.class, args);
+	   //comentario para prueba en version mobil
     }
 }
